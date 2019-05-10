@@ -1,4 +1,3 @@
-//
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
 // Distributed under an MIT license: https://codemirror.net/LICENSE
 
@@ -11,7 +10,7 @@
     mod(CodeMirror);
 })(function(CodeMirror) {
 "use strict";
-  
+
 CodeMirror.defineMode("javascript", function(config, parserConfig) {
   var indentUnit = config.indentUnit;
   var statementIndent = parserConfig.statementIndent;
