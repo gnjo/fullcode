@@ -1,7 +1,25 @@
 # fullcode
 fullcode is one page codeing editor
 
-# 
+#
+```js
+//autocomplete
+https://codemirror.net/demo/complete.html
+var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
+  lineNumbers: true,
+  extraKeys: {"Ctrl-Space": "autocomplete"},
+  mode: {name: "javascript", globalVars: true}
+});
+
+<link rel="stylesheet" href="../lib/codemirror.css">
+<link rel="stylesheet" href="../addon/hint/show-hint.css">
+<script src="../lib/codemirror.js"></script>
+<script src="../addon/hint/show-hint.js"></script>
+<script src="../addon/hint/javascript-hint.js"></script>
+<script src="../mode/javascript/javascript.js"></script>
+<script src="../mode/markdown/markdown.js"></script>
+
+```
 ```js
 //mode.pug.js
 https://codemirror.net/mode/pug/index.html
