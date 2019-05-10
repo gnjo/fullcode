@@ -19,6 +19,17 @@ var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
 <script src="../mode/javascript/javascript.js"></script>
 <script src="../mode/markdown/markdown.js"></script>
 
+https://codemirror.net/addon/hint/
+../
+anyword-hint.js                                    24-Jul-2018 09:33                1681
+css-hint.js                                        24-Jul-2018 09:33                2166
+html-hint.js                                       09-Jan-2019 07:10               11417
+javascript-hint.js                                 24-Jul-2018 09:33                6574
+show-hint.css                                      28-Jun-2016 09:13                 623
+show-hint.js                                       25-Apr-2019 06:12               17327
+sql-hint.js                                        20-Mar-2019 08:11                9599
+xml-hint.js                                        22-Mar-2019 07:33                5185
+
 ```
 ```js
 //mode.pug.js
