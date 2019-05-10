@@ -37,6 +37,31 @@ li.CodeMirror-hint-active {
   background: #08f;
   color: white;
 }
+
+
+
+div.CodeMirror{
+ height:100%;
+}
+
+div.cm-s-default span.cm-property
+,div.cm-s-default span.cm-attribute {
+    color: #fff;
+}
+div.cm-s-default span.cm-property.cm-string{
+ color:#f26;
+}
+
+.cm-s-default span.CodeMirror-matchingbracket{
+ text-decoration: unset;
+}
+
+.ed .cm-s-default.CodeMirror{
+ background:transparent;
+}
+
+
+ font-size:12px;
 .cm-header,
 .cm-strong {
     font-weight: bold
@@ -123,5 +148,3 @@ li.CodeMirror-hint-active {
 ,.cm-builtin {
     color: #0ef
 }
-
-
