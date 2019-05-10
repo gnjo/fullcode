@@ -3,6 +3,15 @@ fullcode is one page codeing editor
 
 #
 ```js
+//key action
+editor.setOption("extraKeys", {
+  "Ctrl-Enter": function(cm) {
+    var spaces = Array(cm.getOption("indentUnit") + 1).join(" ");
+    cm.replaceSelection(spaces);
+  }
+});
+```
+```js
 //autocomplete
 https://codemirror.net/demo/complete.html
 var editor = CodeMirror.fromTextArea(document.getElementById("code"), {
