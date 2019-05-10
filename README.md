@@ -1,6 +1,23 @@
 # fullcode
 fullcode is one page codeing editor
 
+# module
+```
+https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.min.css
+https://gnjo.github.io/fullcode/show-hint.css
+
+https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.min.js
+https://gnjo.github.io/fullcode/mode.css.js
+https://gnjo.github.io/fullcode/mode.js.js
+https://gnjo.github.io/fullcode/mode.pug.js
+https://gnjo.github.io/fullcode/show-hint.js
+https://gnjo.github.io/fullcode/css-hint.js
+https://gnjo.github.io/fullcode/javascript-hint.js
+
+https://gnjo.github.io/terminal/terminal.css
+
+```
+
 #
 ```js
 //key action
