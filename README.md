@@ -3,9 +3,11 @@ fullcode is one page codeing editor
 
 # module
 ```
+//into fullcode.pack.css
 https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.min.css
 https://gnjo.github.io/fullcode/show-hint.css
 
+//into fullcode.pack.js
 https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.46.0/codemirror.min.js
 https://gnjo.github.io/fullcode/mode.css.js
 https://gnjo.github.io/fullcode/mode.js.js
